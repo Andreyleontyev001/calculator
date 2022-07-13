@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Калькулятор</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Калькулятор</h1>
+	<div class="calculator">
+        <label for="num1"></label><input id="num1" />
+        <button class="default" onclick="choice_action_button='+'">+</button>
+      <button class="default" onclick="choice_action_button='-'">-</button>
+      <button class="default" onclick="choice_action_button='*'">x</button>
+      <button class="default" onclick="choice_action_button='/'">:</button>
+      <label for="num2"></label><input id="num2" />
+      <button onclick="action()">Посчитать</button>
+      <p id="result"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
