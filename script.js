@@ -1,10 +1,10 @@
-let action;
+let actionInput;
 
-function calculate() {
+function calculateOption() {
     let number_1 = Number(document.getElementById("number_1").value);
     let number_2 = Number(document.getElementById("number_2").value);
     let result;
-    switch (action) {
+    switch (actionInput) {
         case '+' :
             result = number_1 + number_2
             break;
