@@ -1,21 +1,21 @@
-let actionInput;
+let action;
 
-function calculateOption() {
-    let number_1 = Number(document.getElementById("number_1").value);
-    let number_2 = Number(document.getElementById("number_2").value);
+function calculate() {
+    let numberOne = Number(document.getElementById("numberOne").value);
+    let numberTwo = Number(document.getElementById("numberTwo").value);
     let result;
-    switch (actionInput) {
+    switch (action) {
         case '+' :
-            result = number_1 + number_2
+            result = numberOne + numberTwo
             break;
         case '-' :
-            result = number_1 - number_2
+            result = numberOne - numberTwo
             break;
         case '*' :
-            result = number_1 * number_2
+            result = numberOne * numberTwo
             break;
         case '/' :
-            result = number_1 / number_2
+            result = numberOne / numberTwo
             break;
     }
     document.getElementById("result").innerHTML = result;
